@@ -1,0 +1,20 @@
+:root {
+    --fundo: rgba(255, 255, 255, 0.151);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    background-color: var(--fundo);
+}
+
+header ul {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+}

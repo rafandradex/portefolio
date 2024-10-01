@@ -1,0 +1,40 @@
+.portfolioinicial {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.portfolioinicial h1{
+    font-size: 2em;
+}
+
+img {
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.redesocial {
+    margin-top: 2em;
+}
+
+.redesocial h2 {
+    font-size: 1.5em;
+}
+
+.redesocial li {
+    margin-top: .5em;
+}
+
+.redesocial ul{
+    list-style-type: none;
+}
+
+.redesocial a {
+    text-decoration: none;
+    
+}
+
+.redesocial a:hover {
+    color: gray;
+}
