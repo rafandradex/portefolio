@@ -5,7 +5,16 @@ header {
 
 header ul {
     display: flex;
-    gap: 15px;
+    gap: 1em;
     justify-content: flex-end;
     list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
