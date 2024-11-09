@@ -1,0 +1,50 @@
+.menu-lateral {
+    background-color: var(--menu);
+    display: grid;
+    grid-gap: .5em;
+    padding: 12px;
+    width: 216px;
+}
+
+.menu-lateral h1{
+    font-size: 1.5em;
+    /* justify-self: center; */
+}
+
+.menu-lateral ul {
+    list-style-type: none;
+}
+
+.opcoes a {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.opcoes li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+}
+
+.opcoes li:hover {
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 1em;
+}
+
+.opcoesa:hover {
+    text-decoration: underline;
+}
+
+.admins h2 {
+    font-size: 1.5em;
+}
+
+.admins ul {
+    list-style-type: none;
+}
+
+.admins li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+}

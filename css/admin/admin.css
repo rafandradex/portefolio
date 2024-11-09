@@ -1,0 +1,57 @@
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "aside main"
+    "foot foot";
+    grid-template-columns: auto 1fr;
+}
+
+header {
+    grid-area: cabecalho;
+}
+
+.menu-lateral {
+    grid-area: aside;
+}
+
+.principalmenu {
+    grid-area: main;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principalmenu h1 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    /* text-align: center; */
+}
+
+.principalmenu h2 {
+    font-size: 1.4em;
+    margin-top: .3em;
+    /* text-align: center; */
+}
+
+form {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.principalmenu input{
+    color: white;
+    background-color: black;
+}
+
+.principalmenu input::placeholder {
+    background-color: black;
+}
+
+footer {
+    grid-area: foot;
+    margin-top: 0em;
+}

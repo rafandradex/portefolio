@@ -1,5 +1,7 @@
-body {
-    background-color: black;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolioinicial {
@@ -40,5 +42,26 @@ body {
 }
 
 .portfolioinicial a:hover{
+    text-decoration: underline;
+}
+
+.dowloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.dowloads h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.dowloads a{
+    text-decoration: none;
+}
+.dowloads a:hover {
     text-decoration: underline;
 }
